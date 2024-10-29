@@ -277,8 +277,13 @@ hr {
   margin: 10px 0;
 }
 
-ul#list {
-  padding: 0px 0px 0px 60px;
+ul.list {
+  padding: 0 0 0 2em;
+  margin: 1em 0;
+}
+
+ul.list > li {
+  margin: 0.5em 0;
 }
 
 .program-main {
