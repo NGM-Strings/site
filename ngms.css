@@ -13,7 +13,9 @@ b {
 }
 
 body {
-  background: url("img/back.jpg") no-repeat center center / cover fixed;
+  /* 元画像は https://commons.wikimedia.org/wiki/File:Violin_strings_in_close-up_%28Unsplash%29.jpg */
+  /* ライセンスは CC0 (パブリックドメイン) */
+  background: url("img/background.jpg") no-repeat center center / cover fixed;
   color: #ffffff;
   font-family: sans-serif;
   text-align: center;
@@ -445,11 +447,4 @@ ul.list > li {
   font-family: "JF-Dot-MPlus12-No-Kanji";
   letter-spacing: 0.167em;
   /* 1/12 = 2 dot */
-}
-
-/*============================================
-  動画
-============================================*/
-.movie-container > iframe {
-  max-width: 100%;
 }
