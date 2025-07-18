@@ -322,7 +322,7 @@ ul.list > li {
 }
 
 .alert-info {
-  background-color: #d1ecf1;
+  background-color: rgba(209, 236, 241, 0.95);
   border-color: #bee5eb;
 }
 
@@ -333,12 +333,13 @@ ul.list > li {
 }
 
 .alert-warning {
-  background-color: #fff3cd;
+  background-color: rgba(255, 243, 205, 0.95);
   border-color: #ffecb5;
 }
 
 .alert-warning h3,
-.alert-warning p {
+.alert-warning p,
+.alert-warning a {
   color: #664d03;
 }
 
